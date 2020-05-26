@@ -17,3 +17,8 @@ resource "aws_eip" "ip" {
   vpc = true
   instance = aws_instance.example.id
 }
+
+module "consul" {
+  source  = "hashicorp/consul/aws"
+  version = "0.0.5"
+}

@@ -21,5 +21,8 @@ resource "aws_eip" "ip" {
 module "consul" {
   source  = "./tf-module"
   version = "v1.1.1"
- 
+  tags = {
+    Terraform   = "true"
+    Environment = "dev"
+  }
 }

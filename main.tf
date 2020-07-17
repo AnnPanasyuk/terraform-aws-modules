@@ -20,5 +20,5 @@ resource "aws_eip" "ip" {
 
 module "consul" {
   source  = "./tf-module"
-  version = "1.1.1"
+  version = "v1.1.1"
 }

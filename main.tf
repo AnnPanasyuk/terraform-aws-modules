@@ -22,3 +22,8 @@ module "consul" {
   source  = "./tf-module"
   version = "v1.1.1"
 }
+
+ module "terraform-aws-module1" {
+  source  = "./folder1/terraform-aws-module1"
+  version = "v1.1.0"
+}

@@ -1,3 +1,3 @@
 variable "my_variable" {
-  default = "myVariable"
+  default = null
 }

@@ -1,6 +1,4 @@
-variable "my_variable" {
-  default = null
-}
+variable "my_variable" {}
 
 variable "region" {
   default = "us-east-2"

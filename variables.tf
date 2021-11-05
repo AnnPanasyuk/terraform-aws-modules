@@ -27,6 +27,8 @@ variable "some_value2" {
   default = "null"
 }
 
-variable "some_undefined" {
-  default = undefined
+variable "some_null" {
+  default = null
 }
+
+variable "empty" {}
